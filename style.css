@@ -586,6 +586,13 @@ section ul li {
 
 .talk-entry:last-child { border-bottom: none; }
 
+.talk-number {
+  font-weight: 700;
+  color: var(--jhu-blue);
+  font-size: 0.85rem;
+  margin-right: 0.3rem;
+}
+
 .talk-title {
   font-weight: 600;
   color: var(--text);
