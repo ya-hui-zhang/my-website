@@ -38,7 +38,7 @@
 
   <!-- ===== 1. Moire Systems ===== -->
   <section id="moire">
-    <h2>Moir&eacute; Systems</h2>
+    <h2>Moir&eacute; Superlattices and 2D Materials</h2>
     <p>
       Moir&eacute; superlattices formed by stacking two-dimensional materials with a small
       twist angle or lattice mismatch host nearly flat Chern bands where interaction effects
@@ -61,15 +61,23 @@
         <a href="https://doi.org/10.1103/PhysRevB.112.085107" target="_blank">[48]</a>
         <a href="https://arxiv.org/abs/2507.00139" target="_blank">[p2]</a>.
         A key distinction from conventional Mott insulators is the momentum-selective
-        Mott gap: the Mott gap becomes small or vanishes at certain momentum points,
+        Mott gap: the Mott gap becomes small or vanishes at certain momentum points.
+        Moreover, the Mott&ndash;Hubbard bands may themselves become topological, so that
+        the final phase hosts charge edge modes coexisting with bulk localized spin moments.
       </li>
       <li><strong>Theory of superconductivity for twisted bilayer graphene</strong> &mdash;
         We proposed a theory of superconductivity in twisted bilayer graphene based on
         pairing from a small Fermi surface
         <a href="https://arxiv.org/abs/2510.26801" target="_blank">[p9]</a>.
         This approach naturally explains the two-gap structure and the pseudogap observed
-        in tunneling experiments, providing a unified picture of the superconducting state
-        and its connection to the nearby correlated insulating phases.
+        in tunneling experiments.
+      </li>
+      <li><strong>Chiral superconductivity</strong> &mdash;
+        We are interested in understanding how chiral superconductivity can emerge
+        in purely spinless models with Coulomb interaction alone. This question is
+        potentially relevant to recent discoveries in pentalayer graphene and twisted
+        MoTe<sub>2</sub>. The chiral superconductor is particularly exciting because
+        it likely hosts Majorana zero modes.
       </li>
     </ul>
   </section>
@@ -85,7 +93,9 @@
     <ul>
       <li><strong>Ancilla qubit theory of the pseudogap metal</strong> &mdash;
         We developed a mean-field theory that explains Fermi arcs and the pseudogap
-        by hybridizing the electron with an ancilla fermion
+        by hybridizing the electron with an ancilla fermion. Beyond mean field, we
+        construct a variational wavefunction by introducing ancilla qubits and then
+        projecting them out
         <a href="https://doi.org/10.1103/PhysRevB.112.115159" target="_blank">[49]</a>.
         This provides, to our knowledge, the first wavefunction of the FL* phase
         within the Hilbert space of the one-band Hubbard model.
@@ -95,8 +105,12 @@
         La<sub>3</sub>Ni<sub>2</sub>O<sub>7</sub>
         <a href="https://doi.org/10.1103/PhysRevB.108.174511" target="_blank">[30]</a>
         and showed that kinetic energy can drive strong pairing even when the attractive
-        interlayer exchange J<sub>&perp;</sub> is canceled by a repulsive V
-        <a href="https://doi.org/10.1103/PhysRevB.110.104517" target="_blank">[37]</a>.
+        interaction from J<sub>&perp;</sub> is canceled by a repulsive V
+        <a href="https://doi.org/10.1103/PhysRevB.110.104517" target="_blank">[37]</a>
+        <a href="https://arxiv.org/abs/2411.07292" target="_blank">[p1]</a>.
+        Beyond mean field, J<sub>&perp;</sub> penalizes the S=1 doublon state, frustrating
+        single-electron motion so that pairing saves kinetic energy&mdash;a mechanism
+        beyond the mean-field decoupling common to most other approaches.
         See <a href="https://arxiv.org/abs/2509.02673" target="_blank">[p7]</a> for a review.
       </li>
       <li><strong>Non-Fermi liquid criticality with Fermi surface volume jump</strong> &mdash;
@@ -115,9 +129,9 @@
   <section id="fractional">
     <h2>Fractional Phases</h2>
     <p>
-      Quantum spin liquids host fractionalized excitations and emergent gauge fields.
-      We study these exotic phases and their connections to quantum Hall physics,
-      topological order, and unconventional superconductivity.
+      Fractionalization&mdash;where electrons collectively give rise to emergent
+      quasiparticles carrying fractional quantum numbers&mdash;is a central theme in
+      modern condensed matter physics.
     </p>
     <ul>
       <li><strong>Quantum spin liquids</strong> &mdash;
@@ -156,22 +170,16 @@
     </p>
     <ul>
       <li><strong>Density matrix renormalization group (DMRG)</strong> &mdash;
-        DMRG is one of the most powerful methods for one-dimensional and quasi-one-dimensional
-        quantum systems. We use DMRG to study quantum criticality, exotic superconducting
-        states, and entanglement properties in strongly correlated models, providing
-        benchmarks and insights that guide our analytical theories.
+        We use DMRG to study quantum criticality and exotic phases in one-dimensional
+        and quasi-one-dimensional models, providing benchmarks for our analytical theories.
       </li>
       <li><strong>Variational Monte Carlo (VMC)</strong> &mdash;
-        VMC provides a flexible framework for constructing and optimizing physically motivated
-        trial wavefunctions in two dimensions. We develop new classes of variational states
-        to capture Mott physics, Fermi surface reconstruction, and fractionalization
-        in correlated electron systems.
+        We develop new classes of variational wavefunctions in two dimensions to capture
+        Mott physics, Fermi surface reconstruction, and fractionalization.
       </li>
       <li><strong>Neural network quantum states</strong> &mdash;
-        Neural network ansatze offer a promising new paradigm for representing quantum
-        many-body wavefunctions, with the expressive power to capture complex entanglement
-        structures. We are exploring how these methods can be combined with physical insights
-        to tackle open problems in strongly correlated systems.
+        We explore neural network ansatze as expressive variational wavefunctions
+        for strongly correlated systems.
       </li>
     </ul>
   </section>
