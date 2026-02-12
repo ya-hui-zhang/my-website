@@ -398,6 +398,11 @@ section ul li {
   letter-spacing: 0.02em;
 }
 
+img.member-avatar {
+  object-fit: cover;
+  border: 2px solid var(--border);
+}
+
 .member-card .member-name {
   font-size: 1rem;
   font-weight: 700;
